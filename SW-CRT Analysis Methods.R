@@ -143,8 +143,8 @@ NPWPAdj.Effect.Est <- function(Periods, Outcomes, Clusters, StartTimes, Contrast
         if (sum(AdjInts==0) > 0 | ContMean==0) {
           for (j in 1:NumInt) {
             if (xor(AdjInts[j] == 0,ContMean == 0)) {
-              AdjInts[j] <- (Ints[j]*Indivs[Clusters==IntClusts[j] & Periods==Pd] + 1/2)/(Indivs[Clusters==IntClusts[j] & Periods==Pd] + 1)
-              AdjConts[j] <- mean((ContIndivs*Conts+1/2)/(ContIndivs+1))
+              AdjInts[j] <- (Ints[j]*Indivs[Clusters==IntClusts[j] & Periods==Pd] + 0.5)/(Indivs[Clusters==IntClusts[j] & Periods==Pd] + 1)
+              AdjConts[j] <- mean((ContIndivs*Conts+0.5)/(ContIndivs+1))
             }
           }
         }
