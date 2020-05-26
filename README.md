@@ -18,4 +18,6 @@ Figure_Generation.R demonstrates how to construct figures like those shown in th
 
 Parameters.Rda gives the parameters for the simulation settings used in the manuscript. Each is run for 1,000 simulations.
 
+These programs are a work in progress, as we work to improve usability, error-catching, and speed of analysis. If you find errors, please contact Lee Kennedy-Shaffer at lee_kennedyshaffer (at) g (dot) harvard (dot) edu. 
+
 
