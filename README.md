@@ -1,7 +1,7 @@
 # SW-CRT-outbreak
 Methods and Simulations for Stepped Wedge Cluster-Randomized Trials in Infectious Disease Outbreaks
 Accompanies:
-Kennedy-Shaffer and Lipsitch 2020. "Statistical Properties of Stepped Wedge Cluster-Randomized Trials in Infectious Disease Outbreaks." medRxiv Preprint: https://doi.org/10.1101/2020.05.01.20087429.
+Kennedy-Shaffer and Lipsitch 2020. "Statistical Properties of Stepped Wedge Cluster-Randomized Trials in Infectious Disease Outbreaks." American Journal of Epidemiology (In Press, 2020): https://doi.org/10.1093/aje/kwaa141.
 
 Last Commit: May 26, 2020
 
